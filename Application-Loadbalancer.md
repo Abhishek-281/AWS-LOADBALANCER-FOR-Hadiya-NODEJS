@@ -111,6 +111,7 @@ Each listener can have multiple rules. These rules are evaluated sequentially, a
 
 server {
         listen       443 ssl;
+        
         server_name  backend.asghost.cloud;
 
             # SSL Config Starts here.
